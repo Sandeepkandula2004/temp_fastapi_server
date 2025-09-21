@@ -318,3 +318,7 @@ Update the summary concisely in 2–3 sentences.
         "new_session": new_session_created
     }
 
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("main:app", host="0.0.0.0", port=7860)
+
